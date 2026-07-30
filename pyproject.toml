@@ -25,7 +25,11 @@ analysis = [
 ]
 dev = ["pytest>=8.0"]
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
 [tool.setuptools.packages.find]
+where = ["src"]
 include = ["ml_preprocessing*"]
 
 [tool.pytest.ini_options]

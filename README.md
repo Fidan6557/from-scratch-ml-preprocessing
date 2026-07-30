@@ -44,7 +44,8 @@ The workflow compares raw standardised features, polynomial expansion, quantile 
 
 ```text
 .
-├── ml_preprocessing/       # Reusable preprocessing implementations
+├── src/
+│   └── ml_preprocessing/   # Reusable preprocessing implementations
 ├── notebooks/              # Executed end-to-end case study
 ├── tests/                  # Unit tests
 ├── examples/               # Minimal usage example
