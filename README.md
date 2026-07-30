@@ -60,7 +60,7 @@ The workflow compares raw standardised features, polynomial expansion, quantile 
 Python 3.11 or newer is recommended.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/from-scratch-ml-preprocessing.git
+git clone https://github.com/Fidan6557/from-scratch-ml-preprocessing.git
 cd from-scratch-ml-preprocessing
 
 python -m venv .venv
